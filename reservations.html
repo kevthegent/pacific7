@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <link href="pacific.css"
+          rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="description" content="The Pacific trails site allows you to take a peak at everything that Pacific Trails offers, and register and book a stay in one of our yurts.">
+    <title>Pacific Trails Resort:: Reservations.</title>
+</head>
+<body>
+<div id="wrapper">
+    <header><h1><a href="index.html">Pacific Trails Resort </a></h1></header>
+
+    <nav>
+        <ul>
+
+            <li>
+                <a href="index.html">Home</a> &nbsp;
+            </li>
+            <li>
+                <a href="yurts.html">Yurts </a> &nbsp;
+            </li>
+            <li>
+                <a href="activities.html">Activities</a> &nbsp;
+            </li>
+            <li>
+                <a href="reservations.html">Reservations</a> &nbsp;
+            </li>
+        </ul>
+    </nav>
+
+
+
+    <main>
+        <h2>Reservations at Pacific Trails.</h2>
+
+        <h3>Contact Us Today</h3>
+
+        <p>
+            Required Fields are marked with an asterisk*
+        </p>
+
+        <form method="post">
+
+            <label for="myFName">*First Name</label>
+            <input type="text" id="myFName" required>
+            <label for="myLName">*Last Name</label>
+            <input type="text" id="myLName" required>
+            <label for="EMail">*E-Mail</label>
+            <input type="text" id="EMail" required>
+            <label for="Phone">Phone</label>
+            <input type="text" id="Phone" maxlength="12">
+            <label for="Date">Arrival Date</label>
+            <input type="date" id="Date">
+            <label for="Nights">Nights</label>
+            <input type="number" id="Nights" min="1" max="14">
+            <label for="myComments">*Comments</label>
+            <textarea id="myComments" name="myComments" rows="2" cols="30" required></textarea>
+            <input type="submit" value="submit">
+
+        </form>
+
+        <div id="contact">
+            <span class="resort" >Pacific Trails Resort </span> <br>
+            12010 Pacific Trails Road <br>
+            Zephyr, CA 95555 <br>
+            <br>
+            888-555-5555
+
+            <br>
+            <footer><small><i>Copyright &copy; 2020 Pacific Trails Resort <br> <a href="mailto:tyler@johnson.com"> tyler@johnson.com</a> </i></small></footer>
+        </div>
+
+
+    </main>
+</div>
+
+
+</body>
+
+
+
+</html>
